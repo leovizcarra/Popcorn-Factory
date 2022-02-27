@@ -13,7 +13,7 @@
             android:name=".Catalogo"
             android:exported="true" />
         <activity
-            android:name=".detalle_pelicula"
+            android:name=".DetallePelicula"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

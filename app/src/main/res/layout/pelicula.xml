@@ -13,8 +13,9 @@
 
         <ImageView
             android:id="@+id/iv_pelicula"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="113dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
             android:src="@drawable/bones"/>
 
         <TextView
@@ -22,7 +23,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="BONES"
-            android:textSize="20sp"
+            android:textColor="@color/yellow"
+            android:textSize="15sp"
             android:gravity="center"/>
 
     </LinearLayout>
