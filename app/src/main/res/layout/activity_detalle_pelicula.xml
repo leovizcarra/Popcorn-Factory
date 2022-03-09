@@ -39,4 +39,23 @@
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/buy_tickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/yellow"
+        android:text="BUY MY TICKET"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/seatsLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/grisClaro"
+        android:textStyle="italic"
+        android:layout_marginTop="7dp" />
+
 </LinearLayout>
